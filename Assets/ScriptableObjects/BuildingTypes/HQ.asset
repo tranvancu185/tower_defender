@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameString: HQ
   prefab: {fileID: 4257625968036261016, guid: 21cb501abc7541840b9115feb55eb427, type: 3}
+  hasResourceGeneratorData: 1
   resourceGeneratorData:
     timerMax: 1
     resourceType: {fileID: 11400000, guid: 256544553140e104db496ef1b75952ec, type: 2}
@@ -21,3 +22,6 @@ MonoBehaviour:
     maxResourceAmount: 7
   sprite: {fileID: 21300000, guid: 7030b8e3eb49e8440ae8eb3ec8b45d05, type: 3}
   minConstructionRadius: 0
+  constructionResourceCostArray: []
+  healthAmountMax: 150
+  constructionTimerMax: 5
